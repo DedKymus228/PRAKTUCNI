@@ -13,11 +13,14 @@ int Task2() {
     int A,B,C ;
     if (A<B+C)
         std::cout <<"e storonoy trukyntuka";
-    else if (B<A+C)
+    else std::cout <<"a ne storonami trukytnuka";
+    if (B<A+C)
         std::cout <<"e storonoy trukyntuka";
-    else if (C<A+B)
+    else std::cout <<"b ne storonami trukytnuka";
+    if (C<A+B)
         std::cout <<"e storonoy trukyntuka";
-    else std::cout <<" e storonami trukytnuka";
-    return 0;//тут на самом деле правильнее было сделать иф для каждого значения
+    else std::cout <<"c ne storonami trukytnuka";
+
+    return 0;
 }
 
