@@ -2,7 +2,7 @@
 #include <climits>
 #include <vector>
 #include <bitset>
-#include <algorithm> // Для std::transform
+#include <algorithm> 
 #include <stdexcept>
 using  namespace std;
 int main() {
